@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Page</title>
+</head>
+<body>
+    <h1>Enter Input Values</h1>
+    <form action="/predict" method="post">
+        <!-- Input fields for each feature -->
+        Longitude: <input type="text" name="longitude" required><br>
+        Latitude: <input type="text" name="latitude" required><br>
+        Housing Median Age: <input type="text" name="housing_median_age" required><br>
+        Total Rooms: <input type="text" name="total_rooms" required><br>
+        Total Bedrooms: <input type="text" name="total_bedrooms" required><br>
+        Population: <input type="text" name="population" required><br>
+        Households: <input type="text" name="households" required><br>
+        Median Income: <input type="text" name="median_income" required><br>
+        Ocean Proximity: <input type="text" name="ocean_proximity" required><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
